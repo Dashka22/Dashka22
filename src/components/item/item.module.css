@@ -1,0 +1,40 @@
+.grid {
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+  justify-items: center;
+}
+.text {
+  color: black;
+  font-family: Poppins;
+  font-size: 23px;
+  font-weight: 900;
+  line-height: 24px;
+  letter-spacing: 0.06em;
+  text-align: left;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+  padding: 50px;
+}
+
+.topText {
+  color: black;
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}
+.bottomText {
+  color: #7f7f7f;
+  font-family: Poppins;
+  font-size: 11px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: -0.04em;
+  text-align: left;
+}

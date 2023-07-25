@@ -1,0 +1,43 @@
+.container {
+  height: 550px;
+  width: 100%;
+  background-color: gray;
+  box-sizing: border-box;
+  padding: 40px 40px;
+}
+.topText {
+  width: 250px;
+  height: 250px;
+  font-family: Poppins;
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 57px;
+  letter-spacing: 0em;
+  text-align: left;
+}
+.bottomText {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 23px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+
+  width: 100px;
+  height: 40px;
+  background-color: black;
+  color: white;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 21px;
+  letter-spacing: -0.05em;
+  text-align: left;
+}
